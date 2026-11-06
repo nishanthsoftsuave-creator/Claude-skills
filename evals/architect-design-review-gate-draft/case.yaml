@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: architect-design-review-gate-draft
+expected_outcome: |
+  A design review gate that lists which checks fail or are unmet for this draft (no evaluation plan, no guardrails, no monitoring, chunking weakness, no fallback), each tied to the book, with what to do for each.

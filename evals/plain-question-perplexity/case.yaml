@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: plain-question-perplexity
+expected_outcome: |
+  Answers from the relevant modules (language-modeling metrics): perplexity as the exponential of entropy/cross entropy, interpretation, how it relates to model size and data, when it is useful and when it is not (for example after post-training, for contamination detection), cites row ids and PDF pages, mentions any unverified spots.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: architect-agent-design-refunds
+expected_outcome: |
+  An agent design grounded in the book: tools and their categories (including write actions and their risk), planning approach and validation, step limits, memory handling, failure modes (planning, tool, efficiency) and how to evaluate them, human approval for write actions, compound error awareness.

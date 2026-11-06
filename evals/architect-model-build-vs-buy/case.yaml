@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: architect-model-build-vs-buy
+expected_outcome: |
+  Walks the book's build-vs-buy axes (data privacy, performance, functionality, cost, control, on-device), recommends evaluating candidates on the user's own data, notes public benchmarks' limits and contamination, and labels dated model/price facts as time-sensitive.

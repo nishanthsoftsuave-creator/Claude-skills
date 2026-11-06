@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: review-rag-full-review
+expected_outcome: |
+  A Review & Test run that follows the skill's flow: context summary, a test plan, checks run through run_check.py with evidence, static review marked REVIEWED, findings that match the seeded defects (prompt built by concatenating user text into the instructions, fixed 200-character chunks without overlap, top-k of 50, no output limit and a retry loop, temperature 1.0 for factual answers, no evaluation set, no logging, hard-coded key), a results.json that passes validate_report.py, and a report listing what was not tested.
+context:
+  scaffold_script: place-files.sh

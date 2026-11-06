@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: review-observability-gap
+expected_outcome: |
+  An observability review: finds no logging of prompts, responses, latency, token use or errors, no tracing, no metrics or drift detection, no feedback signals; checks marked REVIEWED; recommends the book's monitoring items without inventing alert thresholds.
+context:
+  scaffold_script: place-files.sh

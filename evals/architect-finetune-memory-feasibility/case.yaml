@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: architect-finetune-memory-feasibility
+expected_outcome: |
+  Works the memory arithmetic from the book: weights at 2 bytes per parameter, gradient and optimizer state for trainable parameters, activations extra; concludes full finetuning does not fit and explains parameter-efficient finetuning and quantization options; labels its own arithmetic extensions as interpretation; does not fabricate figures.

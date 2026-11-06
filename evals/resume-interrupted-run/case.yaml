@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: resume-interrupted-run
+expected_outcome: |
+  Finds the saved run state in the project folder, resumes after the last completed step instead of starting over, uses the recorded answers and assumptions, and continues to the next step.
+context:
+  scaffold_script: place-files.sh

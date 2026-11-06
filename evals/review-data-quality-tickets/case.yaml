@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: review-data-quality-tickets
+expected_outcome: |
+  A data review following data-review: finds the duplicate record, inconsistent field names, an empty question, personal data (an email address, a phone number), inconsistent or fabricated answers (refunds always available), tiny size; checks run with recorded evidence (scripts that print counts, not raw personal data); gives a recommendation grounded in the book's data quality and quantity material.
+context:
+  scaffold_script: place-files.sh

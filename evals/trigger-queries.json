@@ -1,0 +1,23 @@
+[
+  {"query": "we're about to start building an internal assistant that answers HR policy questions from ~400 SharePoint docs, english and arabic, budget around 2k a month. can you design the architecture for it?", "should_trigger": true},
+  {"query": "my RAG chatbot over our product docs keeps giving answers that sound confident but are wrong about the refund policy. repo is in ~/work/support-bot. figure out why and tell me what to fix", "should_trigger": true},
+  {"query": "should we finetune llama on our 5k support tickets or just improve the retrieval + prompts? small team, 2 backend devs, no ml person", "should_trigger": true},
+  {"query": "review my agent code in src/agent.js, it can issue refunds and send emails. i'm worried it can loop forever or do something destructive. test it if you can", "should_trigger": true},
+  {"query": "how do i know if my llm feature is good enough to ship? we have no eval set. help me build an evaluation plan", "should_trigger": true},
+  {"query": "our llm bill doubled last month and p95 latency is bad. we self-host a 70b model on 8 gpus. where is the cost going and what can we cut", "should_trigger": true},
+  {"query": "run a prompt injection test against our customer support bot (staging copy) and write up what leaked. we have written approval from security", "should_trigger": true},
+  {"query": "what does the AI Engineering book say about using an LLM as a judge, what are the problems with it?", "should_trigger": true},
+  {"query": "can I finetune a 13B model on one 24GB GPU with adam in 16 bit? work out the memory", "should_trigger": true},
+  {"query": "audit our data/support_tickets.jsonl before we train on it, i think there are dupes and pii in there", "should_trigger": true},
+  {"query": "ok so our json outputs from the model fail to parse about 5% of the time and break the pipeline downstream, what are our options to make this reliable", "should_trigger": true},
+  {"query": "fix the bug in checkout.py where the discount is applied twice, the failing test is tests/test_checkout.py::test_discount", "should_trigger": false},
+  {"query": "write a SQL query that returns the top 10 customers by revenue for each region from the orders and customers tables", "should_trigger": false},
+  {"query": "our react app's dropdown menu is cut off on mobile safari, can you fix the css? the component is in components/Menu.tsx", "should_trigger": false},
+  {"query": "explain how a b-tree index works and when postgres would choose a sequential scan instead", "should_trigger": false},
+  {"query": "set up a github actions workflow that runs pytest and uploads the coverage report on every pull request", "should_trigger": false},
+  {"query": "i'm a PM, can you summarise this 20 page contract pdf for me in 10 bullet points? it's attached", "should_trigger": false},
+  {"query": "help me write a pytest fixture that spins up a temporary sqlite database and tears it down after each test", "should_trigger": false},
+  {"query": "what's the difference between supervised and unsupervised learning? i'm studying for a stats exam and want a plain explanation", "should_trigger": false},
+  {"query": "optimise this python function that parses a 2GB log file, it's using too much memory (profile output pasted below)", "should_trigger": false},
+  {"query": "draft a README for our open source CLI tool that converts csv files to parquet, include install and usage sections", "should_trigger": false}
+]

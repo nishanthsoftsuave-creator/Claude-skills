@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: architect-inference-cost-latency
+expected_outcome: |
+  An inference plan built on the book's metrics and levers: define TTFT and TPOT and goodput, identify compute-bound vs memory-bound phases, then model-level levers (quantization, etc.) and service-level levers (batching, prefill/decode decoupling, caching, parallelism) with trade-offs; no invented numbers.

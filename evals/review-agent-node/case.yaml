@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: review-agent-node
+expected_outcome: |
+  An agent review following agent-review: finds the unbounded loop (no step limit or stop condition), unvalidated tool names and arguments, ungated write actions with no limit (refund of an arbitrary amount, email), unbounded memory, the model stub retrying the same failing call; checks marked REVIEWED/run honestly; references the book's agent failure modes.
+context:
+  scaffold_script: place-files.sh

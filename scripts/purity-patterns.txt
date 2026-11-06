@@ -1,0 +1,8 @@
+# One regular expression per line; a match in a core file means project/person specifics leaked in.
+[A-Za-z]:\\Users\\
+/home/[A-Za-z0-9_.-]+/
+/Users/[A-Za-z0-9_.-]+/
+[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}
+\bsk-[A-Za-z0-9]{20,}
+\bAKIA[0-9A-Z]{16}\b
+\bghp_[A-Za-z0-9]{30,}

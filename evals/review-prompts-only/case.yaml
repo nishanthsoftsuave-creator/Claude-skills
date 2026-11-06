@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: review-prompts-only
+expected_outcome: |
+  A prompt-focused review following prompt-review: structure, clarity, context, instructions, separation of user input, versioning, with checks marked review/REVIEWED, grounded in the book's best practices.
+context:
+  scaffold_script: place-files.sh

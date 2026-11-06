@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: no-ai-project-crud
+expected_outcome: |
+  Discovers that the project has no AI or foundation-model components, says so, explains that little of the book applies, offers the few relevant options (for example how to evaluate AI features if planned), and does not force RAG, agent or finetuning advice.
+context:
+  scaffold_script: place-files.sh

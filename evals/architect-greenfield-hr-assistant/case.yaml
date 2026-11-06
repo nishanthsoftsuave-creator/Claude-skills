@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: architect-greenfield-hr-assistant
+expected_outcome: |
+  Architect-mode design for the brief: use case and success criteria, model selection with build-vs-buy reasoning that respects the privacy preference, a retrieval-based pattern justified against prompting and finetuning, guardrails for salary data and access control, a language plan for English and Arabic, an evaluation plan written before building, inference cost and latency within the stated budget and 5 s limit, monitoring and feedback, and decision records. Assumptions stated at the top; numbers the book does not give are not presented as the book's.
+context:
+  scaffold_script: place-files.sh

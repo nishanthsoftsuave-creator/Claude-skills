@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: architect-structured-output-failures
+expected_outcome: |
+  Lays out the book's techniques for structured outputs (prompting, post-processing, constrained sampling, finetuning) with trade-offs, validation and fallbacks, and the role of sampling settings; labels its own selection advice as interpretation.

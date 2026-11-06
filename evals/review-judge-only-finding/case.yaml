@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: review-judge-only-finding
+expected_outcome: |
+  Writes the finding but caps it: a result that rests only on an AI judge is probable at most, explains the book's limits of AI as a judge, and says what would raise confidence (human review of a sample, exact checks, judge validation); does not label it confirmed.

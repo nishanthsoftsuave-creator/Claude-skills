@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: architect-eval-plan-before-build
+expected_outcome: |
+  An evaluation plan covering criteria tied to the business need, methods (exact checks, similarity, AI judge with its limits, human review), an evaluation dataset plan with size reasoning, an evaluation guideline, slices, and when each runs. Thresholds come from the user or are labelled as proposals.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: diagnose-hallucination-no-evidence
+expected_outcome: |
+  Hypothesis-driven diagnosis with no project and no logs: lists unknowns, asks the targeted questions that would separate the hypotheses, offers the book's candidate causes and cheap tests, and does not assert a root cause.
